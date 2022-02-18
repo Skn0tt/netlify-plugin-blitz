@@ -1,10 +1,10 @@
-# netlify-plugin-blitzjs
+# netlify-plugin-blitz
 
 A plugin to run Blitz.js on Netlify.
 
 ## Installing the plugin
 
-You can install the plugin [via the Netlify UI](https://app.netlify.com/plugins/netlify-plugin-blitzjs/install) or by adding it in code:
+You can install the plugin [via the Netlify UI](https://app.netlify.com/plugins/netlify-plugin-blitz/install) or by adding it in code:
 
 ```shell
 npm install -D netlify-plugin-blitz
