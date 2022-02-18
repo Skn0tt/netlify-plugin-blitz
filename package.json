@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Netlify Plugin for Blitz.js",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "manifest.yml"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
