@@ -1,5 +1,17 @@
-import { Image, BlitzPage } from "blitz"
+import getRandomNumber from "app/queries/getRandomNumber"
+import { Image, BlitzPage, useQuery } from "blitz"
 import logo from "public/logo.png"
+import { Suspense } from "react"
+
+const RandomNumber = () => {
+  const [randomNumber] = useQuery(getRandomNumber, undefined)
+
+  return (
+    <p>
+      Here is a random number: <code>{randomNumber}</code>
+    </p>
+  )
+}
 
 /*
  * This file is just for a pleasant getting started page for your new app.
@@ -16,6 +28,10 @@ const Home: BlitzPage = () => {
         <p>
           <strong>Congrats!</strong> Your app is ready.
         </p>
+
+        <Suspense fallback={null}>
+          <RandomNumber />
+        </Suspense>
         <div className="buttons" style={{ marginTop: "5rem" }}>
           <a
             className="button"
