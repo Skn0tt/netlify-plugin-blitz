@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skn0tt/blitz-on-netlify.git"
+    "url": "git+https://github.com/skn0tt/netlify-plugin-blitz.git"
   },
   "keywords": [
     "blitz",
@@ -22,9 +22,9 @@
   "author": "Simon Knott",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skn0tt/blitz-on-netlify/issues"
+    "url": "https://github.com/skn0tt/netlify-plugin-blitz/issues"
   },
-  "homepage": "https://github.com/skn0tt/blitz-on-netlify#readme",
+  "homepage": "https://github.com/skn0tt/netlify-plugin-blitz#readme",
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.2.7"
   }
