@@ -26,7 +26,11 @@ const Home: BlitzPage = () => {
           <Image src={logo} alt="blitzjs" />
         </div>
         <p>
-          <strong>Congrats!</strong> Your app is ready.
+          This page is an example for{" "}
+          <a href="https://github.com/skn0tt/netlify-plugin-blitz">
+            <code>netlify-plugin-blitz</code>
+          </a>
+          .
         </p>
 
         <Suspense fallback={null}>
