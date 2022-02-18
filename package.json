@@ -1,0 +1,27 @@
+{
+  "name": "netlify-plugin-blitz",
+  "version": "0.0.1",
+  "description": "Netlify Plugin for Blitz.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skn0tt/blitz-on-netlify.git"
+  },
+  "keywords": [
+    "blitz",
+    "netlify",
+    "netlify-plugin"
+  ],
+  "author": "Simon Knott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skn0tt/blitz-on-netlify/issues"
+  },
+  "homepage": "https://github.com/skn0tt/blitz-on-netlify#readme",
+  "dependencies": {
+    "@netlify/plugin-nextjs": "^4.2.7"
+  }
+}
