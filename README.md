@@ -13,6 +13,10 @@ npm install -D netlify-plugin-blitz
 ...then add the plugin to your `netlify.toml` file:
 
 ```toml
+[build]
+  command="npm run build"
+  publish=".next"
+
 [[plugins]]
 package = "netlify-plugin-blitz"
 ```
